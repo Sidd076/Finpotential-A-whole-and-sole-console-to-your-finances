@@ -10,7 +10,7 @@ function Login() {
 
   function handleSubmit(e) {
     e.preventDefault();
-    axios.post('http://localhost:5000/login', { email, password })
+    axios.post('https://finpotential-a-whole-and-sole-console-to-your-finances.vercel.app/login', { email, password })
       .then(res => {
         localStorage.setItem('token', res.data.token);
         navigate('/home');
