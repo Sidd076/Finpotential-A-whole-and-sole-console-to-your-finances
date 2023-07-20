@@ -1,0 +1,51 @@
+/* faq.css */
+h2{
+    align-items: center;
+    margin-left: 30%;
+    margin-top: 3%;
+}
+
+/* Style the details and summary elements */
+details {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 1em 0;
+  }
+  
+  summary {
+    cursor: pointer;
+    padding: 0.5em;
+  }
+  
+  /* Style the control icons */
+  .control-icon {
+    fill: currentColor;
+    margin-right: 0.5em;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  /* Style the expand icon */
+  .control-icon-expand {
+    transform: rotate(0);
+  }
+  
+  details[open] .control-icon-expand {
+    transform: rotate(90deg);
+  }
+  
+  /* Style the close icon */
+  .control-icon-close {
+    transform: rotate(0);
+  }
+  
+  details[open] .control-icon-close {
+    transform: rotate(45deg);
+  }
+  
+  /* Hide the expand/collapse icons for non-supported browsers */
+  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .control-icon {
+      display: none;
+    }
+  }
+  

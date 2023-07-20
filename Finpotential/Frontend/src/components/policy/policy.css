@@ -1,0 +1,50 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    align-items: center;
+    text-align: justify;
+
+  }
+  
+  .insurance {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .insurance h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-left: 30px;
+  }
+  
+  .insurance hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .insurance p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .insurance h4 {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  .insurance li {
+    font-size: 16px;
+    margin-bottom: 10px;
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .insurance li b {
+    font-weight: bold;
+  }
+  
+  
