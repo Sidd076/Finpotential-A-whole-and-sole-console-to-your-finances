@@ -10,7 +10,7 @@ function Signup() {
   const navigate = useNavigate();
   function handleSubmit(e) {
     e.preventDefault();
-    axios.post('http://localhost:5000/signup', { name, email, password }, { withCredentials: true })
+    axios.post('https://finpotential-a-whole-and-sole-console-to-your-finances.vercel.app/signup', { name, email, password }, { withCredentials: true })
       .then(navigate("/"))
       .catch(err => console.log(err));
   }
